@@ -1,0 +1,76 @@
+.image {
+	width:150px;
+	height:150px;
+	border:1px solid rgb(10, 32, 20);
+	cursor:pointer;
+}
+
+#pscore1 {
+	margin-left: 20%;
+}
+
+#pscore2 {
+	margin-right: 20%;
+}
+
+#result {
+	width:250px;
+	color:rgb(11, 53, 31);
+	background-color:white;
+	margin: auto;
+	padding: 5px;
+	border: 1px solid rgb(26, 70, 46);
+}
+
+body {
+  	text-align: center;
+  	background-color: rgb(51, 118, 81);
+	font-size: 20px;
+	color: rgb(19, 50, 34);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.box {
+	background-color: rgb(206, 245, 223);
+	padding: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+
+button {
+	background-color: #fff;
+	border: 2px solid rgb(51, 118, 81);
+	padding: 5px;
+	position: relative;
+	width: 7.2em;
+	height: 2em;
+	transition: 0.5s;
+	font-size: 17px;
+	border-radius: 0.4em;
+  }
+  
+button svg {
+	position: absolute;
+	top: 0.45em;
+	right: 0.5em;
+	margin: 0;
+	padding: 0;
+	opacity: 0;
+	transition: 0.5s;
+	height: 1em;
+	fill: #fff
+  }
+
+button:hover svg {
+	opacity: 1;
+  }
+  
+button:hover {
+	background-color: #005d43;
+	color: white;
+  }
